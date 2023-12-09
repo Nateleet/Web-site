@@ -1,0 +1,247 @@
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.carousel-item {
+    border: solid;
+    border-width: 0.5px;
+    border-image: radial-gradient(at center, white 50%, black)1;
+}
+
+.vid {
+    margin-top: 0.15rem;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.vid video{
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.text-vid{
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.text-vid h1{
+    font-size: 15rem;
+    text-shadow: 5px 6px 25px #000000;
+    margin-top: 10rem;
+    text-shadow: 2px 6px 5px #000000;
+}
+
+.text-vid h2{
+    font-size: 3rem;
+    text-shadow: 2px 6px 5px #000000;
+    
+}
+
+@media(max-width: 1000px) {
+    .text-vid h1{
+        font-size: 11.5rem;
+        text-shadow: 5px 6px 25px #000000;
+        margin-top: 6rem;
+        text-shadow: 2px 6px 5px #000000;
+    }
+
+    .text-vid h2{
+        font-size: 2.5rem;
+        text-shadow: 2px 6px 5px #000000;
+        
+    }
+
+    .Adv-title h1{
+        text-align: center;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-weight: 800;
+        font-size: 3em;
+        text-shadow: 5px 5px 5px #000000;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.Adv-title h1{
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    font-weight: 800;
+    font-size: 5em;
+    text-shadow: 5px 5px 5px #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+.Func-title h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 800;
+    font-size: 5em;
+    text-shadow: 5px 5px 5px #000000;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.first-ad {
+    margin-top: 1em;
+    /* background-color: rgb(236, 19, 200); */
+
+
+}
+
+.first-ad li {
+    width: 50em;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.first-ad img {
+  float: right;
+}
+
+.Features img {
+    width: 20em;
+    height: 25em;
+    border: solid 0.5px;
+    border-image: radial-gradient(at center, white 50%, black) 1;
+}
+
+.second-ad{
+    text-align: right;
+    margin-top: 3em;
+    /* background-color: bisque; */
+    /* /* position: relative; */
+    right: -46%;
+}
+
+.second-ad li {
+    float: right;
+    /* background-color: aqua; */
+    width: 50em;
+}
+
+.second-ad img {
+    float: left;
+}
+
+.third-ad {
+    margin-top: 3em;
+    /* background-color: cadetblue; */
+    margin-bottom: 1em;
+}
+
+.third-ad li {
+    width: 50em;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.third-ad img {
+    float: right;
+}
+
+@media (max-width: 1000px) {
+    .first-ad {
+        margin-top: 1em;
+        /* background-color: rgb(236, 19, 200); */
+    
+    
+    }
+    
+    .first-ad li {
+        width: 20em;
+        /* background-color: aqua; */
+        float: left;
+    }
+    
+    .first-ad img {
+      float: none;
+    }
+    
+    .Features img {
+        width: 20em;
+        height: 25em;
+        border: solid 0.5px;
+        border-image: radial-gradient(at center, white 50%, black) 1;
+    }
+    
+    .second-ad{
+        text-align: right;
+        margin-top: 3em;
+        /* background-color: bisque; */
+        /* /* position: relative; */
+        right: -46%;
+    }
+    
+    .second-ad li {
+        float: right;
+        /* background-color: aqua; */
+        width: 20em;
+    }
+    
+    .second-ad img {
+        float: none;
+    }
+    
+    .third-ad {
+        margin-top: 3em;
+        /* background-color: cadetblue; */
+        margin-bottom: 1em;
+    }
+    
+    .third-ad li {
+        width: 20em;
+        /* background-color: aqua; */
+        float: left;
+    }
+    
+    .third-ad img {
+        float: none;
+    }
+}
+
+
+
+.scroll-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    z-index: 2;
+    font-size: 3em; 
+    transition: 2s;
+}
+
+
+.scroll-btn a {
+    color: white;
+    text-decoration: none;
+}

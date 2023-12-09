@@ -1,0 +1,109 @@
+
+
+
+
+
+.main-title {
+    text-align: center;
+    margin-top: 0.7em;
+    font-weight: 800;
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    margin-bottom: 3em;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-image: radial-gradient(at center, white 25%, black)1;
+    border-radius: 1em;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+
+.card:hover {
+   transform: scale(1.05);
+}
+
+
+.btn {
+    background-color: rgb(31, 31, 31);
+    border-color: rgb(182, 182, 182);
+    border-radius: 0.5em;
+    padding-inline: 5em;
+    transition: 0.1s ease-in;
+    margin-top: 2em;
+}
+
+.btn:hover {
+    background-color: rgb(31, 31, 31);
+    border: none;
+    padding-inline: 4.7em;
+    
+}
+
+.btn.btn-primary:active {
+    background-color: rgb(117, 117, 117);
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.category {
+    text-align: center;
+}
+
+.category h1 {
+    display: inline-block;
+    margin-inline: 0.2em;
+}
+
+.category a {
+    text-decoration: none;
+    color: rgb(238, 15, 15);
+    border-bottom: solid;
+    border-width: 1px;
+    border-image: radial-gradient(at center, white 80%, black)1;
+    font-weight: 500;
+    user-select: none;
+
+}
+
+
+
+.category h1 {
+    transition: 0.7s;
+}
+
+.category h1:hover {
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.15); */
+}
+
+
+.category a {
+    color: rgb(185, 185, 185);
+    transition: 0.7s;
+}
+
+.category a:hover {
+    color: rgb(255, 255, 255);
+    transform: color;
+}
+
+.comfort a {
+    color: white;
+}
+
+
+
+
+
+

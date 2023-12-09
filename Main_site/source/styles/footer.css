@@ -1,0 +1,28 @@
+.footer-text {
+    margin: auto auto;
+    margin-top: 1em;
+
+
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+
+}
+
+footer img {
+    width: 40px;
+    display: inline;
+    align-items: center;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-img {
+    margin-top: 0.35em;
+}
